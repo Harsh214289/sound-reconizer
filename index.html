@@ -1,0 +1,45 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+      <h2 id="heading_alien"> 🌗𝓐𝓵𝓲𝓮𝓷 𝓓𝓪𝓷𝓬𝓮𝓻 𝓑𝔂 𝓢𝓸𝓾𝓷𝓭 </h2>
+      <p> Note - Try playing CLAP, WHISTLE, SNAP and different sounds like these.</p>
+      <hr id="line">
+      <button onclick="record_voice()" id="start"> Start </button>
+      <br>
+      <br>
+      <br>
+      <span id="sound_heard"> What I can Hear : <p id="sound">  </p> </span>
+      <span id="accuracy_of_sound"> Accuracy : <p id="accuracy">  </p> </span>
+      <span> 
+      <img class="aliens" id="alien_clap" src="aliens-01.png"> 
+      <img class="aliens" id="alien_whistle" src="aliens-02.png"> 
+      <img class="aliens" id="alien_snap" src="aliens-03.png"> 
+      <img class="aliens" id="alien_background" src="aliens-04.png">  
+      </span>
+      
+      </center>
+      <div id="name"> This app is Created By Harsh Gautam of WHITEHAT JR.</div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
